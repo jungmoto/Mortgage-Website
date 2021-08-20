@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
 :root {
     --primary-color: #16284c;
     --secondary-color: #002240;
@@ -45,10 +46,14 @@ img {
 /* Navbar */
 
 .navbar {
-    background-color: #EEEEEE;
+    background-color: #fff;
     color: #fff;
     height: 110px;
     width: auto;
+}
+
+.navbar-brand .logo-image {
+    margin-top: 0px;
 }
 
 .navbar ul {
@@ -77,6 +82,10 @@ img {
     background-color: var(--primary-color);
     color: #fff;
     position: relative;
+}
+
+.showcase-header {
+    font-family: 
 }
 
 .showcase h1 {
@@ -136,6 +145,12 @@ img {
     -webkit-transform: skewY(-3deg);
     -moz-transform: skewY(-3deg);
     -ms-transform: skewY(-3deg); */
+}
+
+/* Brothers */
+.brothers-margin .container {
+    margin-top: 40px;
+    margin-bottom: -80px;
 }
 
 /* Stats */
@@ -204,6 +219,7 @@ hr {
 }
 
 .responsive {
+    /* box-shadow: 0 3px 10px rgba(0,0,0,0.2); */
     width: 100%;
     max-width: 800px;
     height: auto;
@@ -349,16 +365,18 @@ hr {
 
     .navbar ul {
         padding: 10px;
-        background-color: rgba(0,0,0,0.1);
+        font-size: 14px;
+        background-color: #fff;
+        /* background-color: rgba(0,0,0,0.1); */
     }
 }
 
 .logo-image {
-    width: 150px;
-    height: 60px;
+    width: 130px;
+    height: 30px;
     overflow: visible;
-    border-radius: 50%;
-    margin-top: -10px;
+    /* border-radius: 50%; */
+    margin-top: -20px;
     
 }
 
